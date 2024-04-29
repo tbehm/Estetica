@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style type="text/css">
+        body{
+            position: relative;
+
+}
+input[ type="button"] {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #2749f5; 
+    color: white;
+    border-radius: 5px;
+    width: 230px;
+    height: 70px;
+    cursor: pointer;
+    }
+input[type="button"]:hover {
+    background-color: #2e10eb; 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 230px;
+    height: 70px;
+    border-radius: 5px;
+    
+} 
+.container{
+    position: absolute;
+    top:20%;
+    left:36%;
+    
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 230px;
+    height:70px;
+
+}
+.container .content{
+    position: relative;
+    top: 50%;
+    list-style: none;
+}
+.container .content input[type="button"]{
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    width: 230px;
+    height:70px;
+    padding: 30px;
+}
+body #back{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+    </style>
+	<div class="container">
+		<div class="content">
+		<a href="prueba_grafico.php?act=anual"><input type="button" value="Ver actividad anual"></a>
+		<a href="prueba_grafico.php?act=dia"><input type="button" value="Ver dia mas concurrido"></a>
+		</div>
+	</div>
+	</body>
+</html>
